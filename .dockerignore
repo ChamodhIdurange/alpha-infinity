@@ -1,0 +1,8 @@
+**/node_modules
+**/dist
+**/.env
+backend/data
+backend/uploads
+ALFA_Store_Lion_360_CMS_Kit_6996
+.git
+**/*:Zone.Identifier

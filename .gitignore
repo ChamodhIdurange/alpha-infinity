@@ -1,0 +1,35 @@
+# Dependencies and build output (recreated by `npm ci` and `npm run build`)
+node_modules/
+dist/
+*.tsbuildinfo
+.vite/
+coverage/
+
+# Local configuration and secrets. Commit backend/.env.example only.
+.env
+.env.*
+!.env.example
+
+# Runtime data: the SQLite catalogue and owner uploads. Back these up; never commit them.
+# The server creates both folders on start.
+backend/data/
+backend/uploads/
+*.db
+*.db-wal
+*.db-shm
+*.sqlite3
+
+# Original HTML/Python kit this project was rebuilt from (kept locally for reference only)
+ALFA_Store_Lion_360_CMS_Kit_6996/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
+.vscode/
+.idea/
+*.swp
